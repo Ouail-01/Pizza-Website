@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(img/53110049.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+header nav {
+    display: flex;
+    flex:1 1 600px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    align-items: center;
+
+
+}
+
+header nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    flex: 0 0 100px;
+    margin-left: 20px;
+}
+
+header .logo img {
+    height: inherit;
+    width: inherit;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main h1 {
+    font-size: 4em;
+    color: white;
+    padding-bottom: 50px;
+
+
+}
+
+.main h3 {
+    font-size: 3em;
+    color: yellow;
+    padding-bottom: 30px;
+    font-weight: 400;
+
+
+}
+
+.main p {
+    font-weight: 100;
+    color: white;
+    padding-bottom: 40px;
+
+}
+
+.button {
+    width: 250px;
+    padding: 20px 15px;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: yellow;
+    text-decoration: none;
+
+
+}
+
+.button:hover {
+    background-color: yellow;
+    border-color: yellow;
+    color: red;
+    transform: rotate(5deg);
+    transition: all 0.3s ease-in-out;
+
+}
+
+header nav a:hover {
+    font-size: 20px;
+    color: red;
+    transform: rotate(-2deg);
+    transition: all 0.3s ease-in-out;
+}
